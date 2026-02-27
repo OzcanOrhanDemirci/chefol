@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>Sayfa Bulunamadı | ChefOl</title>
+    
+    <link rel="icon" type="image/x-icon" href="assets/favicon/chefol-favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/chefol-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/chefol-favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/favicon/chefol-apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                <img src="assets/logo.png" alt="ChefOl Logo" class="logo-img logo-dark">
+                <img src="assets/logo2.png" alt="ChefOl Logo" class="logo-img logo-light">
+                <span class="logo-text">ChefOl</span>
+            </a>
+        </div>
+        <div class="controls">
+            <button id="langToggle" class="control-btn" aria-label="Dil Değiştir / Change Language">
+                <span class="lang-text active" id="lang-tr">TR</span>
+                <span class="lang-divider">|</span>
+                <span class="lang-text" id="lang-en">EN</span>
+            </button>
+            <button id="themeToggle" class="control-btn" aria-label="Tema Değiştir / Toggle Theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"></line></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <section class="error-404 reveal">
+            <h1 class="error-code">404</h1>
+            <h2 class="tr-content">Oops! Şefimiz bu tarifi bulamadı.</h2>
+            <h2 class="en-content">Oops! Our chef couldn't find this recipe.</h2>
+            
+            <p class="tr-content">Aradığınız sayfa mutfak tezgahından düşmüş, yanmış veya hiç var olmamış olabilir.</p>
+            <p class="en-content">The page you are looking for might have fallen off the kitchen counter, burnt, or never existed.</p>
+            
+            <a href="index.html" class="store-btn home-btn">
+                <svg class="store-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                <span class="store-main tr-content">Ana Sayfaya Dön</span>
+                <span class="store-main en-content">Return to Home</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="ChefOl Logo" class="logo-img logo-dark">
+                <img src="assets/logo2.png" alt="ChefOl Logo" class="logo-img logo-light">
+                <span class="logo-text">ChefOl</span>
+            </div>
+            <p class="footer-copyright">&copy; 2026 ChefOl. <span class="tr-content">Tüm hakları saklıdır.</span><span class="en-content">All rights reserved.</span></p>
+            <a href="mailto:chefolapp@gmail.com" class="contact-link">chefolapp@gmail.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

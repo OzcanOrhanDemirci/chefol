@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="google" content="notranslate">
+    
+    <title>ChefOl</title>
+    <meta name="description" content="Elinizdeki malzemeleri saniyeler içinde lezzetli tariflere dönüştürün. Kişisel alerji profiliniz ve hassas ölçümlerle mutfakta hata payını sıfırlayın.">
+    <meta name="author" content="Özcan Orhan Demirci">
+    <meta name="keywords" content="yemek tarifi, akıllı mutfak, alerji profili, hassas ölçüm, yemek asistanı, ChefOl">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://SENIN-GITHUB-PAGES-LINKIN-BURAYA-GELECEK/">
+    <meta property="og:title" content="ChefOl">
+    <meta property="og:description" content="Elinizdeki malzemeleri saniyeler içinde lezzetli tariflere dönüştürün. Mutfakta sınırları kaldırın.">
+    <meta property="og:image" content="https://SENIN-GITHUB-PAGES-LINKIN-BURAYA-GELECEK/assets/og-image.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://SENIN-GITHUB-PAGES-LINKIN-BURAYA-GELECEK/">
+    <meta property="twitter:title" content="ChefOl">
+    <meta property="twitter:description" content="Elinizdeki malzemeleri saniyeler içinde lezzetli tariflere dönüştürün. Mutfakta sınırları kaldırın.">
+    <meta property="twitter:image" content="https://SENIN-GITHUB-PAGES-LINKIN-BURAYA-GELECEK/assets/og-image.png">
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon/chefol-favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/chefol-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/chefol-favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/favicon/chefol-apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="ChefOl Logo" class="logo-img logo-dark">
+            <img src="assets/logo2.png" alt="ChefOl Logo" class="logo-img logo-light">
+            <span class="logo-text">ChefOl</span>
+        </div>
+        <div class="controls">
+            <button id="langToggle" class="control-btn" aria-label="Dil Değiştir / Change Language">
+                <span class="lang-text active" id="lang-tr">TR</span>
+                <span class="lang-divider">|</span>
+                <span class="lang-text" id="lang-en">EN</span>
+            </button>
+            <button id="themeToggle" class="control-btn" aria-label="Tema Değiştir / Toggle Theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"></line></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <section class="hero reveal">
+            <div class="hero-text">
+                <h1 class="tr-content">Mutfağınızdaki<br><span class="highlight">Yapay Zeka</span> Şefi</h1>
+                <h1 class="en-content">The <span class="highlight">AI Chef</span><br>in Your Kitchen</h1>
+                
+                <p class="tr-content">Elinizdeki malzemeleri saniyeler içinde lezzetli tariflere dönüştürün. Kişisel alerji profiliniz ve hassas ölçümlerle mutfakta hata payını sıfırlayın.</p>
+                <p class="en-content">Transform your available ingredients into delicious recipes in seconds. Eliminate kitchen errors with your personal allergy profile and precise measurements.</p>
+                
+                <div class="store-buttons">
+                    <a href="javascript:void(0)" class="store-btn" aria-label="Download on the App Store">
+                        <svg class="store-icon" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                        <div class="store-text">
+                            <span class="store-sub en-content">Download on</span>
+                            <span class="store-sub tr-content">Hemen İndir</span>
+                            <span class="store-main">App Store</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="store-btn" aria-label="Download on Google Play">
+                        <svg class="store-icon" viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+                        <div class="store-text">
+                            <span class="store-sub en-content">Download on</span>
+                            <span class="store-sub tr-content">Hemen İndir</span>
+                            <span class="store-main">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-container">
+                    <img src="assets/mockup.png" alt="ChefOl App Mockup" class="mockup-img mockup-dark">
+                    <img src="assets/mockup2.png" alt="ChefOl App Mockup" class="mockup-img mockup-light">
+                </div>
+            </div>
+        </section>
+
+        <section class="features reveal delay-1">
+            <div class="feature-card">
+                <div class="feature-icon">✨</div>
+                <h3 class="tr-content">Akıllı Tarif</h3>
+                <h3 class="en-content">Smart Recipe</h3>
+                <p class="tr-content">Elinizdeki malzemelere en uygun, yaratıcı tarifler anında cebinizde.</p>
+                <p class="en-content">Get instant, creative recipes perfectly matched to your ingredients.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3 class="tr-content">Alerji Kontrolü</h3>
+                <h3 class="en-content">Allergy Control</h3>
+                <p class="tr-content">Kişiselleştirilmiş alerji profilinizle sizin için riskli olan hiçbir malzemeyle karşılaşmayın.</p>
+                <p class="en-content">Never encounter risky ingredients with your fully personalized allergy profile.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚖️</div>
+                <h3 class="tr-content">Hassas Ölçüm</h3>
+                <h3 class="en-content">Precise Measurement</h3>
+                <p class="tr-content">Porsiyonları ve malzeme miktarlarını milimetrik hassasiyetle ayarlayarak mükemmel kıvamı yakalayın.</p>
+                <p class="en-content">Achieve the perfect consistency by adjusting portions and ingredient amounts with pinpoint accuracy.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🥦</div>
+                <h3 class="tr-content">Malzeme Çeşitliliği</h3>
+                <h3 class="en-content">Ingredient Variety</h3>
+                <p class="tr-content">Dolabınızdaki her türlü malzemeyi sisteme girin, sınırları kaldırıp yepyeni lezzetler keşfedin.</p>
+                <p class="en-content">Enter any ingredient from your fridge, remove boundaries, and discover brand new flavors.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎛️</div>
+                <h3 class="tr-content">Şefin Özelleştirilmesi</h3>
+                <h3 class="en-content">Chef Customization</h3>
+                <p class="tr-content">Şefinizin dilini, tonunu ve yaratıcılık seviyesini tamamen kendi tarzınıza göre ayarlayın.</p>
+                <p class="en-content">Completely customize the language, tone, and creativity level of your chef to match your style.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍳</div>
+                <h3 class="tr-content">Pişirme Modu</h3>
+                <h3 class="en-content">Cooking Mode</h3>
+                <p class="tr-content">Ekranın kapanmasını engelleyen özel asistan modu ile adımlara tam odaklanarak pişirin.</p>
+                <p class="en-content">Cook step-by-step with complete focus using a special assistant mode that keeps your screen awake.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌾</div>
+                <h3 class="tr-content">İntolerans ve Hassasiyet</h3>
+                <h3 class="en-content">Intolerance & Sensitivity</h3>
+                <p class="tr-content">Çölyak, laktoz veya histamin gibi rahatsızlıklarınızı seçin; size dokunacak tüm besinleri (ör: gluten, süt) tariflerden kalıcı olarak gizleyin.</p>
+                <p class="en-content">Select conditions like celiac, lactose, or histamine intolerance; permanently hide all ingredients (e.g., gluten, dairy) that upset your stomach.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🥗</div>
+                <h3 class="tr-content">Diyet Seçimi</h3>
+                <h3 class="en-content">Diet Selection</h3>
+                <p class="tr-content">Vegan, ketojenik, glutensiz veya daha fazlası; yaşam tarzınıza en uygun diyeti kolayca seçin.</p>
+                <p class="en-content">Vegan, keto, gluten-free and more; easily select the diet that best fits your lifestyle.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3 class="tr-content">Blok Tabanlı Editör</h3>
+                <h3 class="en-content">Block-Based Editor</h3>
+                <p class="tr-content">Kendi tarif defterinizi ve mutfak notlarınızı gelişmiş blok editör ile özgürce tasarlayın.</p>
+                <p class="en-content">Freely design your own recipe book and kitchen notes using an advanced block-based editor.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👶</div>
+                <h3 class="tr-content">Bebek Modu</h3>
+                <h3 class="en-content">Baby Mode</h3>
+                <p class="tr-content">Tarifleri bebeklerin yemesine uygun püre ve mama formatında hazırlayın; baharatlı, sert veya yapışkan malzemeleri anında filtreleyin.</p>
+                <p class="en-content">Prepare recipes in purée and mash formats suitable for babies; instantly filter out spicy, hard, or sticky ingredients.</p>
+            </div>
+        </section>
+
+        <section class="reveal delay-2">
+            <div class="cta-banner">
+                <h2 class="tr-content">Mutfakta sınırları kaldırmaya hazır mısınız?</h2>
+                <h2 class="en-content">Ready to remove boundaries in the kitchen?</h2>
+                <p class="tr-content">ChefOl uygulamasını hemen indirin, akıllı şefinizle tanışın.</p>
+                <p class="en-content">Download ChefOl now and meet your smart chef.</p>
+                
+                <div class="store-buttons justify-center">
+                    <a href="javascript:void(0)" class="store-btn" aria-label="Download on the App Store">
+                        <svg class="store-icon" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                        <div class="store-text">
+                            <span class="store-sub en-content">Download on</span>
+                            <span class="store-sub tr-content">Hemen İndir</span>
+                            <span class="store-main">App Store</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="store-btn" aria-label="Download on Google Play">
+                        <svg class="store-icon" viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+                        <div class="store-text">
+                            <span class="store-sub en-content">Download on</span>
+                            <span class="store-sub tr-content">Hemen İndir</span>
+                            <span class="store-main">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="legal reveal delay-3" id="legal-section">
+            
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" aria-controls="terms-content">
+                    <span class="tr-content">Kullanım Koşulları</span>
+                    <span class="en-content">Terms of Service</span>
+                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="accordion-content" id="terms-content">
+                    <div class="legal-text-body tr-content">
+                        <p><strong>Son Güncelleme: 26 Şubat 2026</strong></p>
+                        
+                        <h3>1. TARAFLAR VE KABUL</h3>
+                        <p>Bu Kullanım Koşulları ("Sözleşme"), ChefOl ("Uygulama") uygulamasını kullanan tüm misafir ve kayıtlı kullanıcılar ("Kullanıcı") ile Uygulama sahibi ve geliştiricisi Özcan Orhan Demirci ("Geliştirici") arasındaki hukuki ilişkiyi düzenler. Uygulamayı indirerek, erişerek veya kullanarak bu Sözleşme'nin tüm şartlarını eksiksiz olarak okuduğunuzu, anladığınızı ve hukuken bağlayıcı olarak kabul ettiğinizi beyan edersiniz. Bu şartları kabul etmiyorsanız, Uygulamanın kullanımını sonlandırmanızı rica ederiz.</p>
+                        <p>Uygulamayı kullanmak ve bu şartları kabul etmek için en az 18 yaşında (veya bulunduğunuz ülkede reşitlik yaşında) olduğunuzu beyan edersiniz. 18 yaşın altındaysanız uygulamanın kullanımının ebeveyn onayına tabi olduğunu kabul edersiniz.</p>
+                        
+                        <h3>2. UYGULAMANIN AMACI VE HUKUKİ SORUMLULUK REDDİ</h3>
+                        <p><strong>2.1.</strong> Uygulama, Kullanıcı tarafından sağlanan malzemeler, diyet tercihleri ve sağlık durumları (alerji, intolerans vb.) doğrultusunda yapay zeka (AI) destekli yemek tarifleri oluşturmak amacıyla tasarlanmıştır.</p>
+                        <p><strong>2.2. Tıbbi Tavsiye Değildir:</strong> Uygulama içerisinde yer alan hiçbir bilgi, tarif, besin değeri, alerjen uyarısı veya sağlık tavsiyesi, profesyonel bir tıbbi tavsiye, teşhis veya tedavi yerine geçmez.</p>
+                        <p><strong>2.3. Sorumluluk Reddi:</strong> Yapay zeka tarafından sağlanan içeriklerin (özellikle Bebek Modu gibi hassas profillerde) doğruluğu, güvenilirliği ve insan sağlığına uygunluğu garanti edilmez. Tüketilen malzemelere karşı gelişebilecek her türlü sağlık sorunu (alerjik reaksiyonlar, gıda zehirlenmeleri vb.) Kullanıcı'nın kendi sorumluluğundadır. Geliştirici, Uygulama kullanımından doğabilecek hiçbir maddi, manevi veya bedensel zarardan sorumlu tutulamaz.</p>
+                        
+                        <h3>3. HESAP, GÜVENLİK VE ERİŞİM</h3>
+                        <p><strong>3.1.</strong> Uygulama, anonim (misafir) kullanımın yanı sıra e-posta veya Google aracılığıyla hesap oluşturma seçeneği sunar.</p>
+                        <p><strong>3.2.</strong> Kullanıcı, hesabına ait giriş bilgilerinin gizliliğinden ve hesabıyla gerçekleştirilen tüm eylemlerden tek başına sorumludur.</p>
+                        <p><strong>3.3.</strong> Geliştirici, Kullanıcı'nın bu Sözleşme'yi ihlal ettiğini tespit etmesi durumunda hesapları askıya alma ve cihaz tabanlı erişim engeli (ban) uygulama hakkını saklı tutar.</p>
+                        
+                        <h3>4. FİKRİ MÜLKİYET HAKLARI</h3>
+                        <p>Uygulamanın tasarımı, yazılım kodları ve tüm içerikleri Geliştirici'ye aittir. Kullanıcı, uygulamanın hiçbir bölümünü kopyalayamaz, tersine mühendislik yapamaz veya ticari amaçla kullanamaz.</p>
+                        
+                        <h3>5. UYUŞMAZLIKLARIN ÇÖZÜMÜ</h3>
+                        <p>İşbu sözleşmenin uygulanmasından ve yorumlanmasından doğacak her türlü uyuşmazlığın çözümünde Türk Hukuku uygulanacak olup, İzmir Mahkemeleri ve İcra Daireleri yetkilidir.</p>
+                        
+                        <h3>6. SÖZLEŞME DEĞİŞİKLİKLERİ VE YÜRÜRLÜK</h3>
+                        <p>Geliştirici, yasal mevzuattaki değişiklikler veya uygulama güncellemeleri nedeniyle gerekli gördüğü hallerde bu Sözleşme'yi tek taraflı olarak güncelleme hakkını saklı tutar. Değişiklikler yayınlandığı andan itibaren tüm Kullanıcılar için geçerlidir.</p>
+                        
+                        <p><strong>İletişim:</strong> chefolapp@gmail.com</p>
+                    </div>
+                    <div class="legal-text-body en-content">
+                        <p><strong>Last Updated: February 26, 2026</strong></p>
+                        
+                        <h3>1. PARTIES AND ACCEPTANCE</h3>
+                        <p>This Terms of Service ("Agreement") establishes the legal relationship between the users ("User") of the ChefOl application ("App") and the application developer, Özcan Orhan Demirci ("Developer"). By downloading, accessing, or using the App, you declare that you have fully read, understood, and agreed to be legally bound by all terms and conditions of this Agreement. If you do not agree to these terms, we kindly ask you to discontinue using the App.</p>
+                        <p>By using the App and accepting these terms, you declare that you are at least 18 years old (or the age of majority in your jurisdiction). If you are under 18, you acknowledge that your use of the application is subject to parental consent.</p>
+                        
+                        <h3>2. PURPOSE OF THE APP AND LEGAL DISCLAIMER</h3>
+                        <p><strong>2.1.</strong> The App is designed to generate artificial intelligence (AI) powered food recipes based on the ingredients, dietary preferences, and health conditions (allergies, intolerances, etc.) provided by the User.</p>
+                        <p><strong>2.2. Not Medical Advice:</strong> No information, recipe, nutritional value, allergen warning, or health suggestion contained within the App constitutes professional medical advice, diagnosis, or treatment.</p>
+                        <p><strong>2.3. Disclaimer of Liability:</strong> The accuracy, reliability, and human health suitability of the AI-generated content (especially in sensitive profiles such as Baby Mode) are not guaranteed. The User holds sole responsibility for any health issues (allergic reactions, food poisoning, etc.) that may arise from consuming the ingredients. The Developer cannot be held liable for any material, moral, or physical damages resulting from the use of the App.</p>
+                        
+                        <h3>3. ACCOUNT, SECURITY, AND ACCESS</h3>
+                        <p><strong>3.1.</strong> The App offers guest usage as well as account creation via email or Google.</p>
+                        <p><strong>3.2.</strong> The User is solely responsible for maintaining the confidentiality of their account login information and for all activities performed under their account.</p>
+                        <p><strong>3.3.</strong> The Developer reserves the right to temporarily or permanently suspend accounts and enforce device-based access bans if the User violates this Agreement.</p>
+                        
+                        <h3>4. INTELLECTUAL PROPERTY RIGHTS</h3>
+                        <p>The design, software codes, algorithms, logos, and all content of the App belong to the Developer. The User may not copy, reverse engineer, or use any part of the App for commercial purposes.</p>
+                        
+                        <h3>5. DISPUTE RESOLUTION</h3>
+                        <p>In the resolution of any disputes arising from the implementation and interpretation of this agreement, Turkish Law shall apply, and the Courts and Execution Offices of İzmir shall have jurisdiction.</p>
+                        
+                        <h3>6. MODIFICATIONS AND SEVERABILITY</h3>
+                        <p>The Developer reserves the right to unilaterally modify this Agreement without prior notice. Changes become effective and binding for all Users the moment they are published.</p>
+                        
+                        <p><strong>Contact:</strong> chefolapp@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" aria-controls="privacy-content">
+                    <span class="tr-content">Gizlilik Politikası ve Aydınlatma Metni</span>
+                    <span class="en-content">Privacy Policy and Clarification Text</span>
+                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="accordion-content" id="privacy-content">
+                    <div class="legal-text-body tr-content">
+                        <p><strong>Son Güncelleme: 26 Şubat 2026</strong></p>
+                        <p>İşbu Gizlilik Politikası ve Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, ChefOl uygulaması ("Uygulama") kullanıcılarının kişisel verilerinin işlenmesine ilişkin usul ve esasları belirlemek amacıyla Veri Sorumlusu sıfatıyla Özcan Orhan Demirci tarafından hazırlanmıştır.</p>
+                        
+                        <h3>1. İŞLENEN KİŞİSEL VERİLERİNİZ</h3>
+                        <p><strong>Kimlik Verileri:</strong> Ad, Soyad.</p>
+                        <p><strong>İletişim Verileri:</strong> E-posta adresi.</p>
+                        <p><strong>Özel Nitelikli Kişisel Veriler:</strong> Sağlık Verileriniz (Alerjiler, diyet tercihleri, besin hassasiyetleri). Sağlık verileriniz "Açık Rıza"nıza dayalı olarak sağlık ve diyet hassasiyetlerinize uygun tarif sunabilmek amacıyla işlenmektedir.</p>
+                        <p><strong>İşlem Güvenliği ve Analitik Veriler:</strong> Cihaz bilgileri, uygulama içi gezinim, oluşturulan tarifler vb.</p>
+                        
+                        <h3>2. VERİLERİN İŞLENME AMACI</h3>
+                        <p>Kişisel verileriniz, bulut yedeklemesi sağlanması, uygulamanın amacına uygun olarak yapay zeka destekli kişiselleştirilmiş hizmet (tarif) sunumu ve uygulama performansının artırılması amacıyla işlenmektedir.</p>
+                        
+                        <h3>3. KİŞİSEL VERİLERİN AKTARIMI VE YURTDIŞINA AKTARIM</h3>
+                        <p>Uygulamamız tarif önerisi oluştururken Yapay Zeka servislerinden destek alır. Seçmiş olduğunuz malzemeler ile alerji, diyet ve besin hassasiyetleri tercihlerinizi içeren veriler hizmetin sunulabilmesi amacıyla, anonimleştirilerek kullanılsa dahi yurtdışı merkezli yapay zeka sunucularına (Google) aktarılabilmektedir.</p>
+                        <p>Kişisel verileriniz reklam veya pazarlama amacıyla üçüncü şahıslara satılmaz ve paylaşılmaz.</p>
+                        
+                        <h3>4. VERİ SAKLAMA SÜRESİ</h3>
+                        <p>Kişisel verileriniz, hesabınız aktif olduğu sürece saklanır. Hesabınızın ve kişisel verilerinizin silinmesini talep etmeniz halinde, yasal yükümlülüklerimizin gerektirdiği (varsa) süreler istisna olmak kaydıyla, kişisel verileriniz 30 gün içerisinde kalıcı olarak silinir veya veri sahibiyle ilişkilendirilemeyecek şekilde anonimleştirilir.</p>
+                        
+                        <h3>5. KVKK MADDE 11 UYARINCA HAKLARINIZ</h3>
+                        <p>KVKK madde 11 uyarınca, dilediğiniz zaman Veri Sorumlusuna başvurarak kişisel verilerinizin;</p>
+                        <ul>
+                            <li>a) İşlenip işlenmediğini öğrenme,</li>
+                            <li>b) İşlenmişse buna ilişkin bilgi talep etme,</li>
+                            <li>c) İşlenme amacını ve uygun kullanılıp kullanılmadığını öğrenme,</li>
+                            <li>d) Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
+                            <li>e) Eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme,</li>
+                            <li>f) KVKK şartları çerçevesinde silinmesini veya yok edilmesini isteme,</li>
+                            <li>g) Vermiş olduğunuz açık rızayı dilediğiniz zaman geri çekme haklarına sahipsiniz.</li>
+                        </ul>
+                        <p>Açık rızanızı geri çekmek veya yukarıdaki haklarınızı kullanmak için <strong>chefolapp@gmail.com</strong> adresine e-posta göndermeniz yeterlidir.</p>
+                        <p><strong>İletişim:</strong> chefolapp@gmail.com</p>
+                    </div>
+                    <div class="legal-text-body en-content">
+                        <p><strong>Last Updated: February 26, 2026</strong></p>
+                        <p>This Privacy Policy and Clarification Text has been prepared by Özcan Orhan Demirci, in the capacity of Data Controller, to determine the procedures and principles regarding the processing of personal data of the users of the ChefOl application ("App") in accordance with the Law on the Protection of Personal Data No. 6698 ("KVKK").</p>
+                        
+                        <h3>1. YOUR PROCESSED PERSONAL DATA</h3>
+                        <p><strong>Identity Data:</strong> Name, Surname.</p>
+                        <p><strong>Contact Data:</strong> Email address.</p>
+                        <p><strong>Special Category Personal Data:</strong> Your Health Data (Allergies, dietary preferences, food sensitivities). Your health data is processed based on your "Explicit Consent" in order to provide recipes suitable for your health and dietary sensitivities.</p>
+                        <p><strong>Transaction Security and Analytical Data:</strong> Device information, in-app navigation, generated recipes, etc.</p>
+                        
+                        <h3>2. PURPOSE OF DATA PROCESSING</h3>
+                        <p>Your personal data is processed for the purposes of providing cloud backup, delivering AI-supported personalized services (recipes) in line with the purpose of the application, and improving application performance.</p>
+                        
+                        <h3>3. TRANSFER OF PERSONAL DATA AND TRANSFER ABROAD</h3>
+                        <p>Our application uses Artificial Intelligence services when generating recipe suggestions. The data containing your selected ingredients, and preferences regarding allergies, diet, and food sensitivities may be transferred to AI servers located abroad (Google), even if used anonymously, in order to provide the service.</p>
+                        <p>Your personal data is never shared or sold to third parties for advertising or marketing purposes.</p>
+                        
+                        <h3>4. DATA RETENTION PERIOD</h3>
+                        <p>Your personal data is stored as long as your account is active. In the event you request the deletion of your account and personal data, your personal data will be permanently deleted or anonymized within 30 days, so as not to be associated with the data subject, except for the periods required by our legal obligations (if any).</p>
+                        
+                        <h3>5. YOUR RIGHTS UNDER ARTICLE 11 OF KVKK</h3>
+                        <p>Pursuant to Article 11 of the KVKK, you have the right to apply to the Data Controller at any time and:</p>
+                        <ul>
+                            <li>a) Learn whether your personal data is processed,</li>
+                            <li>b) Request information if it has been processed,</li>
+                            <li>c) Learn the purpose of processing and whether it is used appropriately,</li>
+                            <li>d) Know the third parties to whom it is transferred inland or abroad,</li>
+                            <li>e) Request correction if it is processed incompletely or incorrectly,</li>
+                            <li>f) Request its deletion or destruction within the framework of KVKK conditions,</li>
+                            <li>g) Withdraw your explicit consent at any time.</li>
+                        </ul>
+                        <p>To withdraw your consent or exercise any of the rights listed above, simply send an email to <strong>chefolapp@gmail.com</strong>.</p>
+                        <p><strong>Contact:</strong> chefolapp@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer reveal delay-3">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="ChefOl Logo" class="logo-img logo-dark">
+                <img src="assets/logo2.png" alt="ChefOl Logo" class="logo-img logo-light">
+                <span class="logo-text">ChefOl</span>
+            </div>
+            <p class="footer-copyright">&copy; 2026 ChefOl. <span class="tr-content">Tüm hakları saklıdır.</span><span class="en-content">All rights reserved.</span></p>
+            <a href="mailto:chefolapp@gmail.com" class="contact-link">chefolapp@gmail.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

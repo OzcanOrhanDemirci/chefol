@@ -4,18 +4,18 @@
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+
     // --- 1. Tema Yönetimi ---
     const themeToggleBtn = document.getElementById('themeToggle');
     const htmlElement = document.documentElement;
-    
+
     let savedTheme;
     try {
         savedTheme = localStorage.getItem('chefol_theme');
     } catch (e) { console.warn("Local storage disabled"); }
-    
+
     const systemPrefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    
+
     if (savedTheme) {
         htmlElement.setAttribute('data-theme', savedTheme);
     } else if (systemPrefersLight) {
@@ -27,23 +27,23 @@ document.addEventListener('DOMContentLoaded', () => {
     themeToggleBtn.addEventListener('click', () => {
         const currentTheme = htmlElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
+
         htmlElement.setAttribute('data-theme', newTheme);
         try {
             localStorage.setItem('chefol_theme', newTheme);
-        } catch (e) {}
+        } catch (e) { }
     });
 
     // --- 2. Dil Yönetimi (Güvenli Yapı) ---
     const langToggleBtn = document.getElementById('langToggle');
     const langTrSpan = document.getElementById('lang-tr');
     const langEnSpan = document.getElementById('lang-en');
-    
+
     let savedLang = 'tr';
     try {
         savedLang = localStorage.getItem('chefol_lang') || 'tr';
-    } catch (e) {}
-    
+    } catch (e) { }
+
     setLanguage(savedLang, false);
 
     langToggleBtn.addEventListener('click', () => {
@@ -57,10 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (animate) {
                 // Şeffaflığı CSS class ile güvenli şekilde tetikle
                 document.body.classList.add('lang-animating');
-                
+
                 setTimeout(() => {
                     applyLanguage(lang);
-                    
+
                     // Şeffaflığı yavaşça geri almak için ufak bir bekleme
                     setTimeout(() => {
                         document.body.classList.remove('lang-animating');
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         htmlElement.setAttribute('lang', lang);
         try {
             localStorage.setItem('chefol_lang', lang);
-        } catch (e) {}
+        } catch (e) { }
 
         if (lang === 'tr') {
             langTrSpan.classList.add('active');
@@ -106,14 +106,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const revealElements = document.querySelectorAll('.reveal');
 
     const revealOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.05,
+        rootMargin: "0px 0px 50px 0px"
     };
 
-    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
+    const revealOnScroll = new IntersectionObserver(function (entries, observer) {
         entries.forEach(entry => {
             if (!entry.isIntersecting) return;
-            
+
             entry.target.classList.add('active');
             observer.unobserve(entry.target);
         });
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => {
         revealOnScroll.observe(el);
     });
-    
+
     setTimeout(() => {
         revealElements.forEach(el => {
             const rect = el.getBoundingClientRect();

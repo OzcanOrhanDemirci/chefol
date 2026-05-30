@@ -1,6 +1,6 @@
 # ChefOl Yasal Metinler / Legal Texts
 
-> Son Güncelleme / Last Updated: 23 Mayıs 2026 / May 23, 2026
+> Son Güncelleme / Last Updated: 30 Mayıs 2026 / May 30, 2026
 
 ---
 
@@ -52,7 +52,7 @@ Geliştirici, yasal mevzuattaki değişiklikler veya uygulama güncellemeleri ne
 
 ### Gizlilik Politikası ve Aydınlatma Metni
 
-Son Güncelleme: 23 Mayıs 2026
+Son Güncelleme: 30 Mayıs 2026
 
 İşbu Gizlilik Politikası ve Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, ChefOl uygulaması ("Uygulama") kullanıcılarının kişisel verilerinin işlenmesine ilişkin usul ve esasları belirlemek amacıyla Veri Sorumlusu sıfatıyla Özcan Orhan Demirci tarafından hazırlanmıştır.
 
@@ -72,7 +72,7 @@ Kişisel verileriniz, bulut yedeklemesi sağlanması, uygulamanın amacına uygu
 
 #### 3. KİŞİSEL VERİLERİN AKTARIMI VE YURTDIŞINA AKTARIM
 
-Uygulamamız tarif önerisi oluştururken Yapay Zeka servislerinden destek alır. Seçmiş olduğunuz malzemeler ile alerji, diyet ve besin hassasiyetleri tercihlerinizi içeren veriler hizmetin sunulabilmesi amacıyla, anonimleştirilerek kullanılsa dahi güvenli altyapı hizmetleri (Cloudflare, OpenRouter) aracılığıyla yurtdışı merkezli yapay zeka sağlayıcılarına (Google ve Anthropic) aktarılabilmektedir.
+Uygulamamız tarif önerisi oluştururken Yapay Zeka servislerinden destek alır. Seçmiş olduğunuz malzemeler ile alerji, diyet ve besin hassasiyetleri tercihlerinizi içeren veriler hizmetin sunulabilmesi amacıyla, anonimleştirilerek kullanılsa dahi güvenli altyapı hizmetleri (Cloudflare, OpenRouter) aracılığıyla yurtdışı merkezli yapay zeka sağlayıcılarına (Google, Anthropic ve DeepSeek) aktarılabilmektedir.
 
 Kişisel verileriniz reklam veya pazarlama amacıyla üçüncü şahıslara satılmaz ve paylaşılmaz.
 
@@ -152,7 +152,7 @@ Contact: chefolapp@gmail.com
 
 ### Privacy Policy and Clarification Text
 
-Last Updated: May 23, 2026
+Last Updated: May 30, 2026
 
 This Privacy Policy and Clarification Text has been prepared by Özcan Orhan Demirci, in the capacity of Data Controller, to determine the procedures and principles regarding the processing of personal data of the users of the ChefOl application ("App") in accordance with the Law on the Protection of Personal Data No. 6698 ("KVKK").
 
@@ -172,7 +172,7 @@ Your personal data is processed for the purposes of providing cloud backup, deli
 
 #### 3. TRANSFER OF PERSONAL DATA AND TRANSFER ABROAD
 
-Our application uses Artificial Intelligence services when generating recipe suggestions. The data containing your selected ingredients, and preferences regarding allergies, diet, and food sensitivities may be transferred to AI providers located abroad (Google and Anthropic) through secure infrastructure services (Cloudflare, OpenRouter), even if used anonymously, in order to provide the service.
+Our application uses Artificial Intelligence services when generating recipe suggestions. The data containing your selected ingredients, and preferences regarding allergies, diet, and food sensitivities may be transferred to AI providers located abroad (Google, Anthropic, and DeepSeek) through secure infrastructure services (Cloudflare, OpenRouter), even if used anonymously, in order to provide the service.
 
 Your personal data is never shared or sold to third parties for advertising or marketing purposes.
 

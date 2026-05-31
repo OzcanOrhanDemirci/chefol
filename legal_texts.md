@@ -72,7 +72,7 @@ Kişisel verileriniz, bulut yedeklemesi sağlanması, uygulamanın amacına uygu
 
 #### 3. KİŞİSEL VERİLERİN AKTARIMI VE YURTDIŞINA AKTARIM
 
-Uygulamamız tarif önerisi oluştururken Yapay Zeka servislerinden destek alır. Seçmiş olduğunuz malzemeler ile alerji, diyet ve besin hassasiyetleri tercihlerinizi içeren veriler hizmetin sunulabilmesi amacıyla, anonimleştirilerek kullanılsa dahi güvenli altyapı hizmetleri (Cloudflare, OpenRouter) aracılığıyla yurtdışı merkezli yapay zeka sağlayıcılarına (Google, Anthropic ve DeepSeek) aktarılabilmektedir.
+Uygulamamız tarif önerisi oluştururken Yapay Zeka servislerinden destek alır. Seçmiş olduğunuz malzemeler ile alerji, diyet ve besin hassasiyetleri tercihlerinizi içeren veriler hizmetin sunulabilmesi amacıyla, anonimleştirilerek kullanılsa dahi güvenli altyapı hizmetleri (Cloudflare, OpenRouter) aracılığıyla yurtdışı merkezli yapay zeka sağlayıcılarına (Google ve Anthropic) aktarılabilmektedir.
 
 Kişisel verileriniz reklam veya pazarlama amacıyla üçüncü şahıslara satılmaz ve paylaşılmaz.
 
@@ -172,7 +172,7 @@ Your personal data is processed for the purposes of providing cloud backup, deli
 
 #### 3. TRANSFER OF PERSONAL DATA AND TRANSFER ABROAD
 
-Our application uses Artificial Intelligence services when generating recipe suggestions. The data containing your selected ingredients, and preferences regarding allergies, diet, and food sensitivities may be transferred to AI providers located abroad (Google, Anthropic, and DeepSeek) through secure infrastructure services (Cloudflare, OpenRouter), even if used anonymously, in order to provide the service.
+Our application uses Artificial Intelligence services when generating recipe suggestions. The data containing your selected ingredients, and preferences regarding allergies, diet, and food sensitivities may be transferred to AI providers located abroad (Google and Anthropic) through secure infrastructure services (Cloudflare, OpenRouter), even if used anonymously, in order to provide the service.
 
 Your personal data is never shared or sold to third parties for advertising or marketing purposes.
 

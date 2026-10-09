@@ -46,7 +46,7 @@ Uygulamanın tasarımı, yazılım kodları ve tüm içerikleri Geliştirici'ye 
 
 Geliştirici, yasal mevzuattaki değişiklikler veya uygulama güncellemeleri nedeniyle gerekli gördüğü hallerde bu Sözleşme'yi tek taraflı olarak güncelleme hakkını saklı tutar. Değişiklikler yayınlandığı andan itibaren tüm Kullanıcılar için geçerlidir.
 
-İletişim: chefolapp@gmail.com
+İletişim: ozcan@chefolapp.com
 
 ---
 
@@ -98,9 +98,9 @@ f) KVKK şartları çerçevesinde silinmesini veya yok edilmesini isteme,
 
 g) Vermiş olduğunuz açık rızayı dilediğiniz zaman geri çekme haklarına sahipsiniz.
 
-Açık rızanızı geri çekmek veya yukarıdaki haklarınızı kullanmak için chefolapp@gmail.com adresine e-posta göndermeniz yeterlidir.
+Açık rızanızı geri çekmek veya yukarıdaki haklarınızı kullanmak için ozcan@chefolapp.com adresine e-posta göndermeniz yeterlidir.
 
-İletişim: chefolapp@gmail.com
+İletişim: ozcan@chefolapp.com
 
 ---
 
@@ -146,7 +146,7 @@ In the resolution of any disputes arising from the implementation and interpreta
 
 The Developer reserves the right to unilaterally modify this Agreement without prior notice. Changes become effective and binding for all Users the moment they are published.
 
-Contact: chefolapp@gmail.com
+Contact: ozcan@chefolapp.com
 
 ---
 
@@ -198,6 +198,6 @@ f) Request its deletion or destruction within the framework of KVKK conditions,
 
 g) Withdraw your explicit consent at any time.
 
-To withdraw your consent or exercise any of the rights listed above, simply send an email to chefolapp@gmail.com.
+To withdraw your consent or exercise any of the rights listed above, simply send an email to ozcan@chefolapp.com.
 
-Contact: chefolapp@gmail.com
+Contact: ozcan@chefolapp.com

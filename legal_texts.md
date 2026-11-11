@@ -1,6 +1,6 @@
 # ChefOl Yasal Metinler / Legal Texts
 
-> Son Güncelleme / Last Updated: 30 Mayıs 2026 / May 30, 2026
+> Son Güncelleme / Last Updated: 11 Kasım 2026 / November 11, 2026
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### Kullanım Koşulları
 
-Son Güncelleme: 23 Mayıs 2026
+Son Güncelleme: 11 Kasım 2026
 
 #### 1. TARAFLAR VE KABUL
 
@@ -52,7 +52,7 @@ Geliştirici, yasal mevzuattaki değişiklikler veya uygulama güncellemeleri ne
 
 ### Gizlilik Politikası ve Aydınlatma Metni
 
-Son Güncelleme: 30 Mayıs 2026
+Son Güncelleme: 11 Kasım 2026
 
 İşbu Gizlilik Politikası ve Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, ChefOl uygulaması ("Uygulama") kullanıcılarının kişisel verilerinin işlenmesine ilişkin usul ve esasları belirlemek amacıyla Veri Sorumlusu sıfatıyla Özcan Orhan Demirci tarafından hazırlanmıştır.
 
@@ -110,7 +110,7 @@ Açık rızanızı geri çekmek veya yukarıdaki haklarınızı kullanmak için 
 
 ### Terms of Service
 
-Last Updated: May 23, 2026
+Last Updated: November 11, 2026
 
 #### 1. PARTIES AND ACCEPTANCE
 
@@ -152,7 +152,7 @@ Contact: destek@chefolapp.com
 
 ### Privacy Policy and Clarification Text
 
-Last Updated: May 30, 2026
+Last Updated: November 11, 2026
 
 This Privacy Policy and Clarification Text has been prepared by Özcan Orhan Demirci, in the capacity of Data Controller, to determine the procedures and principles regarding the processing of personal data of the users of the ChefOl application ("App") in accordance with the Law on the Protection of Personal Data No. 6698 ("KVKK").
 

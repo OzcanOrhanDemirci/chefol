@@ -68,17 +68,14 @@ Plain HTML, CSS and vanilla JavaScript, with **no framework, package installatio
 
 ## Project layout
 
-```text
-.
-├── index.html          # Landing page, store links and bilingual legal accordions
-├── style.css           # Responsive layout, themes and animations
-├── script.js           # Language, theme, accordions and scroll behavior
-├── 404.html            # Custom not-found page
-├── legal_texts.md      # Standalone Turkish and English legal texts
-├── CNAME               # GitHub Pages custom domain
-├── assets/             # Logos, app mockups, social preview and favicon/manifest files
-└── .github/readme/     # Desktop and mobile website screenshots
-```
+- `index.html`: the landing page, store links and the bilingual legal accordions
+- `style.css`: responsive layout, themes and animations
+- `script.js`: language, theme, accordions and scroll behavior
+- `404.html`: the custom not-found page
+- `legal_texts.md`: the Turkish and English legal texts as a standalone page
+- `CNAME`: the GitHub Pages custom domain
+- `assets/`: logos, app mockups, the social preview image, favicons and the web manifest
+- `.github/readme/`: the screenshots used in this README
 
 ## Run locally
 

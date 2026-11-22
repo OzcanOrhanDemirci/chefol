@@ -1,0 +1,23 @@
+{
+  "screens": [
+    "screens/01_home_dark.png",
+    "screens/02_pantry_pick_ingredients_dark.png",
+    "screens/03_chef_settings_cuisine_style_dark.png",
+    "screens/04a_recipe_generated_overview_dark.png",
+    "screens/05a_cooking_mode_step_dark.png",
+    "screens/06a_allergies_dark.png"
+  ],
+  "hold": 2.0,
+  "transition": {"kind": "slide", "seconds": 0.4, "fps": 20},
+  "width": 560,
+  "frame": {
+    "body": "#1b1e23",
+    "rim": "#555c67",
+    "bezel": 13,
+    "radius": 74,
+    "camera": 15,
+    "buttons": true
+  },
+  "quality": 82,
+  "out": "phone.webp"
+}
